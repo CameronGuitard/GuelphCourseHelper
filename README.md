@@ -109,3 +109,8 @@ How To Run Tests In Cypress:
 - From the root directory, make sure the electron app is running `npm run start`
 - In another terminal, from the root directory, run `npm run test:electron` to start the cypress app
 - Select a test file to see the test suite running on the app
+
+## Upkeep
+- Due to Guelph university changing their course registration, the webscraping for specific course information including available spots and professor no longer function.
+- Copying and pasting transcript also no longer works due to a change in it's layout.
+- As no database is connected, a short demo can be found in the root directory named "demo.mp4" which can be used to see the functionality
