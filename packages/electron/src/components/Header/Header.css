@@ -1,0 +1,8 @@
+.header-body {
+  border-bottom: 5px solid #c4c4c4;
+}
+
+.header-title {
+  display: flex;
+  justify-content: center !important;
+}

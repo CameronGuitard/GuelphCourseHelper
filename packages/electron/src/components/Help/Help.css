@@ -1,0 +1,26 @@
+.resizer{
+    resize: both;
+}
+
+.help-table {
+    width: 100%;
+    background-color: #95adba;
+    border-bottom: 2px solid #282c34;
+    color: #282c34;
+    border-collapse: collapse;
+}
+  
+.help-table-header {
+    width: 100%;
+    background-color: #95adba;
+    color: #282c34;
+    border: 2px solid #282c34;
+    border-bottom: none;
+    text-align: center;
+    margin-top: 40px;
+}
+  
+.help-table-col {
+    border: 3px solid #282c34;
+    border-collapse: collapse;
+}

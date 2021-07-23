@@ -1,0 +1,52 @@
+{
+  "name": "courseparser",
+  "private": true,
+  "version": "2.0.0",
+  "description": "CIS*4250 Project for Group 4",
+  "scripts": {
+    "lint:server": "lerna run --scope server lint",
+    "lint:electron": "lerna run --scope electron lint",
+    "lint:fix": "lerna run lint:fix",
+    "format:server": "cd packages/server && prettier --config .prettierrc.js \"*/**/*.{js,ts,tsx}\" --write",
+    "format:electron": "cd packages/electron && prettier --config .prettierrc.js \"*/**/*.{js,ts,tsx}\" --write",
+    "format": "npm-run-all format:*",
+    "bootstrap": "lerna bootstrap --hoist",
+    "start:server": "lerna run --scope server start --stream",
+    "start:electron": "lerna run --scope electron start --stream",
+    "start": "lerna run start --stream",
+    "clean": "lerna clean && npm rebuild",
+    "cli": "lerna run --scope server cli --stream",
+    "test:server": "lerna run --scope server test",
+    "build:web": "lerna run --scope electron build-web",
+    "build:electron": "lerna run --scope electron build-electron",
+    "test:electron": "cd packages/electron && cypress open",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.socs.uoguelph.ca:cis-4250team4/courseparser.git"
+  },
+  "author": "CIS*4250 Group 4",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/d3": "^6.3.0",
+    "jest": "^26.6.3",
+    "lerna": "^3.22.1",
+    "ts-jest": "^26.4.4",
+    "typescript": "4.2.2"
+  },
+  "dependencies": {
+    "@types/node": "^14.14.21",
+    "@types/pg": "^7.14.11",
+    "@typescript-eslint/eslint-plugin": "^4.14.0",
+    "@typescript-eslint/parser": "^4.14.0",
+    "d3": "^6.6.0",
+    "d4": "^0.8.15",
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "i": "^0.3.6",
+    "jest-fetch-mock": "^3.0.3",
+    "prettier": "^2.2.1"
+  }
+}

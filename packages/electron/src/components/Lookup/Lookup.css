@@ -1,0 +1,48 @@
+.tableProp{
+  width: 100%;
+}
+
+.lookup-table {
+  width: 100%;
+  background-color: #95adba;
+  border-bottom: 2px solid #282c34;
+  color: #282c34;
+  border-collapse: collapse;
+}
+
+.lookup-table-header {
+  width: 100%;
+  background-color: #95adba;
+  color: #282c34;
+  border: 2px solid #282c34;
+  border-bottom: none;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.lookup-table-col {
+  border: 3px solid #282c34;
+  border-collapse: collapse;
+}
+
+label {
+  display: inline;
+  flex-direction: row;
+  color: white;
+  font-weight: bold;
+}
+
+input {
+  margin: 10px;
+  padding: 10px 10px;
+  border-radius: 1-px;
+}
+
+.dialog {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: lightblue;
+}

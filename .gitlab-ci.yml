@@ -1,0 +1,19 @@
+stages:
+  - pre-merge-checks
+
+eslint:
+  image: node
+  stage: pre-merge-checks
+  script:
+    - npm i lerna
+    - npm run bootstrap --force --legacy-peer-deps
+    - npm run lint:server
+    - npm run lint:electron
+
+test:
+  image: alekzonder/puppeteer
+  stage: pre-merge-checks
+  script:
+    - npm i lerna
+    - npm run bootstrap --force --legacy-peer-deps
+    - npm run test:server -- -- -- --coverage=false

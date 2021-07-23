@@ -1,0 +1,9 @@
+text {
+  font-size: 14px;
+  fill: #fff;
+  user-select: none;
+}
+
+.node_legend {
+  min-height: 50px;
+}

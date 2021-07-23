@@ -1,0 +1,29 @@
+label {
+  display: inline;
+  flex-direction: row;
+  color: white;
+  font-weight: bold;
+}
+
+input {
+  margin: 10px;
+  padding: 10px 10px;
+  border-radius: 1-px;
+}
+
+.transcriptExample {
+  width: 275px;
+}
+
+.path-table {
+  width: 100%;
+  background-color: #95adba;
+  border-bottom: 2px solid #282c34;
+  color: #282c34;
+  border-collapse: collapse;
+}
+
+.path-table-col {
+  border: 3px solid #282c34;
+  border-collapse: collapse;
+}

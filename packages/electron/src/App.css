@@ -1,0 +1,42 @@
+body {
+  background-color: #282c34;
+  color: #61dafb;
+}
+
+.ml-0, .mx-0 {
+  margin-left: 0!important;
+}
+.h-100 {
+  height: 100%!important;
+}
+@media (min-width: 1200px){
+  .container {
+    max-width: 1140px;
+  }  
+}
+@media (min-width: 992px)
+{
+  .container {
+    max-width: 938px;
+  }  
+}
+@media (min-width: 768px)
+{
+  .container {
+    max-width: 720px;
+  }  
+}
+@media (min-width: 576px)
+{
+  .container {
+    max-width: 540px;
+  }  
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}

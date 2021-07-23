@@ -1,0 +1,19 @@
+.button-body {
+  padding: 10px 10px;
+  margin: 10px 10px;
+  min-height: min-content;
+}
+
+
+.button-warning {
+  background-color: #e23861;
+  color: #ffffff;
+}
+
+.button-primary {
+  background-color: #61dafb;
+}
+
+.button-secondary {
+  background-color: #95adba;
+}

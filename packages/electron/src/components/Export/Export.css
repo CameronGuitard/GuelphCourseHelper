@@ -1,0 +1,70 @@
+.move-left{
+  float: left;
+}
+
+.move-right{
+  float: right;
+}
+
+.clear {clear:both}
+
+.export-table {
+    width: 100%;
+    background-color: #95adba;
+    border-bottom: 2px solid #282c34;
+    color: #282c34;
+    border-collapse: collapse;
+  }
+  
+  .export-table-header {
+    width: 100%;
+    background-color: #95adba;
+    color: #282c34;
+    border: 2px solid #282c34;
+    border-bottom: none;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .export-table-col {
+    border: 3px solid #282c34;
+    border-collapse: collapse;
+  }
+  
+  label {
+    display: inline;
+    flex-direction: row;
+    color: white;
+    font-weight: bold;
+  }
+  
+  input {
+    margin: 10px;
+    padding: 10px 10px;
+    border-radius: 1-px;
+  }
+text {
+  font-size: 14px;
+  fill: #fff;
+  user-select: none;
+}
+
+.spacing{
+  margin: 30px 0px 0px 30px;
+}
+
+.smallerSpacing{
+  margin: 50px -80px 0px 50px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
